@@ -50,3 +50,7 @@ advanced:
                                   # => full-record mean, which reproduces the
                                   # published uncertainty band best (DCC/CPS
                                   # real-ensemble test). Uncomment to override.
+
+# ---- reproduction of Kaufman et al. (2020): keep the paper's
+#      annual/summerOnly/winterOnly seasonality filter (template default is off).
+presto_season_filter: true
